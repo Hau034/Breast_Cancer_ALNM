@@ -44,7 +44,9 @@ In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performan
 We also provide software to assist clinicians in the evaluation of ALNM.
 
 Please download the software from  [here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing), and check the  `README.txt`  for usage.
+
 After downloading, if the diagnosis_app.exe application is outside the folder, please move the diagnosis_app.exe file to the `\Diagnosis_APP\dist` directory to ensure proper execution.
+
 Please note that this software is only used for demo, and it cannot be used for other purposes.
 ![cad demo software](https://github.com/user-attachments/assets/c5341069-d4c1-4e2b-9db1-77588b1a4003)
 
