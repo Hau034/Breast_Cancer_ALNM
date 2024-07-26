@@ -24,7 +24,7 @@ We have provided examples of the required data format for training in the datase
     python 1_train_BmodeSwe
     
 Furthermore, if you want to try other settings(e.g., network fusion terms), please see `1_train_BmodeSwe.py` for more details.
-Please download the pre-trained weights and testing weights required for training and testing from this link: [here]https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing
+Please download the pre-trained weights and testing weights required for training and testing from this link:[here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing)
 ## Test
 In`3_Test.py`，we present the model's predictions on the test dataset, including the predicted results for benign/malignant (metastatic/non-metastatic) categories and the probabilities for each category. Additionally, we have displayed the model's prediction results and generated a CSV file to save the prediction probabilities for future use in assisting doctors with the CAD demo software.
 
@@ -43,7 +43,7 @@ In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performan
 ## CAD demo software
 We also provide software to assist clinicians in the evaluation of ALNM.
 
-Please download the software from  [here]https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing, and check the  `README.txt`  for usage. Please note that this software is only used for demo, and it cannot be used for other purposes.
+Please download the software from  [here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing), and check the  `README.txt`  for usage. Please note that this software is only used for demo, and it cannot be used for other purposes.
 ![cad demo software](https://github.com/user-attachments/assets/c5341069-d4c1-4e2b-9db1-77588b1a4003)
 
 ## Contact
