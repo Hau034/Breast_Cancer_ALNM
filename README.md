@@ -30,7 +30,7 @@ In`3_Test.py`，we present the model's predictions on the test dataset, includin
 
     cd Breast_cancer\code\BmodeSwe
     python 3_Test
-[link]
+![test result](https://github.com/user-attachments/assets/95c62c8f-e536-4d6a-a8dd-0456890c56d6)
 
 ### Confusion matrix
 In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performance, including metrics such as AUC, accuracy, sensitivity, specificity, false positive rate, false negative rate, and the confusion matrix. Additionally, you can use the model to compute the Youden index in `2_confusion_matrix.py` to obtain the optimal cutoff value.
@@ -44,7 +44,7 @@ In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performan
 We also provide software to assist clinicians in the evaluation of ALNM.
 
 Please download the software from  [here]https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing, and check the  `README.txt`  for usage. Please note that this software is only used for demo, and it cannot be used for other purposes.
-[link]
+![cad demo software](https://github.com/user-attachments/assets/c5341069-d4c1-4e2b-9db1-77588b1a4003)
 
 ## Contact
 If you encounter any problems, please open an issue without hesitation, and you can also contact us with the following:
