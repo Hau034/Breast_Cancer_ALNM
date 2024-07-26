@@ -30,7 +30,7 @@ In`3_Test.py`，we present the model's predictions on the test dataset, includin
 
     cd Breast_cancer\code\BmodeSwe
     python 3_Test
-![test result](https://github.com/user-attachments/assets/95c62c8f-e536-4d6a-a8dd-0456890c56d6)
+![test_result](https://github.com/user-attachments/assets/3aae7e20-6157-4c1d-a5e4-594aa5032ba2)
 
 ### Confusion matrix
 In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performance, including metrics such as AUC, accuracy, sensitivity, specificity, false positive rate, false negative rate, and the confusion matrix. Additionally, you can use the model to compute the Youden index in `2_confusion_matrix.py` to obtain the optimal cutoff value.
