@@ -1,0 +1,4 @@
+,img_name,rename,label
+0,01-484xxx_R1,Benign.1.(01-484xxx_R1),0
+1,04-M3215xxx_R3,Benign.4.(04-M3215xxx_R3),0
+3,328-M3127xxx_R1,Malignant796.(328-M3127xxx_R1),1
