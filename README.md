@@ -23,10 +23,10 @@ We have provided examples of the required data format for training in the datase
     cd code
     python 1_train_bmodeSwe
     
-Furthermore, if you want to try other settings(e.g., network fusion terms), please see `1_train_BmodeSwe.py` for more details.
-Please download the pre-trained weights and testing weights required for training and testing from this link:[here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing)
+Furthermore, if you want to try other settings(e.g., network fusion terms), please see `1_train_bmodeSwe.py` for more details.
+Please download the pre-trained weights and testing weights required for training and testing from this link: [here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing). Please move the downloaded weights to the `/Breast_ALNM/Weights` folder to ensure the code runs correctly.
 ## Test
-In`3_Test.py`，we present the model's predictions on the test dataset, including the predicted results for benign/malignant (metastatic/non-metastatic) categories and the probabilities for each category. Additionally, we have displayed the model's prediction results and generated a CSV file to save the prediction probabilities for future use in assisting doctors with the CAD demo software.
+In`3_test.py`，we present the model's predictions on the test dataset, including the predicted results for benign/malignant (metastatic/non-metastatic) categories and the probabilities for each category. Additionally, we have displayed the model's prediction results and generated a CSV file to save the prediction probabilities for future use in assisting doctors with the CAD demo software.
 
     cd code
     python 3_test
