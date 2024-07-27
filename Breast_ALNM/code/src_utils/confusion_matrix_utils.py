@@ -241,7 +241,7 @@ class ConfusionMatrix_ROC(object):
 
 
         '''================================================='''
-        pic_df = pd.DataFrame(columns=["AUC", "ACC(%)", "SEN(%)", "SPE(%)"], index=["ViT_base"])
+        pic_df = pd.DataFrame(columns=["AUC", "ACC(%)", "SEN(%)", "SPE(%)"], index=["DAMF"])
 
         pic_df["AUC"] = self.roc_auc
         pic_df["ACC(%)"] = acc
