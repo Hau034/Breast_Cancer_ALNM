@@ -45,7 +45,7 @@ In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performan
  ![test_roc](https://github.com/user-attachments/assets/47f0aaf4-11db-4893-a6de-c267bd9bf9fd)
 #### Note: Benign/Malignant (Metastatic/Non-metastatic)
 ## CAD demo software
-We also provide software to assist clinicians in the evaluation of ALNM.
+We also provide software to assist radiologist in the evaluation of ALNM.
 
 Please download the software from  [here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing), and check the  `README.txt`  for usage.
 
