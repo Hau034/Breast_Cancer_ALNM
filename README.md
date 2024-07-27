@@ -20,22 +20,22 @@ Please enter the `Sample` folder to view.
 ## Training
 We have provided examples of the required data format for training in the dataset folder. If you wish to try more configurations, please refer to the details in `1_train_BmodeSwe.py`.
 
-    cd Breast_cancer\code\BmodeSwe
-    python 1_train_BmodeSwe
+    cd code
+    python 1_train_bmodeSwe
     
 Furthermore, if you want to try other settings(e.g., network fusion terms), please see `1_train_BmodeSwe.py` for more details.
 Please download the pre-trained weights and testing weights required for training and testing from this link:[here](https://drive.google.com/drive/folders/1IElSxuTPVTv_tv37_kk6pLqTL3gFDtNt?usp=sharing)
 ## Test
 In`3_Test.py`，we present the model's predictions on the test dataset, including the predicted results for benign/malignant (metastatic/non-metastatic) categories and the probabilities for each category. Additionally, we have displayed the model's prediction results and generated a CSV file to save the prediction probabilities for future use in assisting doctors with the CAD demo software.
 
-    cd Breast_cancer\code\BmodeSwe
-    python 3_Test
+    cd code
+    python 3_test
 ![test_result](https://github.com/user-attachments/assets/3aae7e20-6157-4c1d-a5e4-594aa5032ba2)
 
 ### Confusion matrix
 In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performance, including metrics such as AUC, accuracy, sensitivity, specificity, false positive rate, false negative rate, and the confusion matrix. Additionally, you can use the model to compute the Youden index in `2_confusion_matrix.py` to obtain the optimal cutoff value.
 
-    cd Breast_cancer\code\BmodeSwe
+    cd code
     python 2_confusion matrix
 
  If you want to try other settings, please refer to `2_confusion_matrix.py` for more details.
