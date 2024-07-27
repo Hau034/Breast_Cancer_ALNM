@@ -31,6 +31,7 @@ In`3_Test.py`，we present the model's predictions on the test dataset, includin
     cd code
     python 3_test
 ![test_result](https://github.com/user-attachments/assets/3aae7e20-6157-4c1d-a5e4-594aa5032ba2)
+#### Note: Benign/Malignant (Metastatic/Non-metastatic)
 
 ### Confusion matrix
 In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performance, including metrics such as AUC, accuracy, sensitivity, specificity, false positive rate, false negative rate, and the confusion matrix. Additionally, you can use the model to compute the Youden index in `2_confusion_matrix.py` to obtain the optimal cutoff value.
@@ -40,7 +41,7 @@ In `2_Confusion_matrix.py`, we demonstrate how to evaluate the model's performan
 
  If you want to try other settings, please refer to `2_confusion_matrix.py` for more details.
  ![test_roc](https://github.com/user-attachments/assets/47f0aaf4-11db-4893-a6de-c267bd9bf9fd)
-
+#### Note: Benign/Malignant (Metastatic/Non-metastatic)
 ## CAD demo software
 We also provide software to assist clinicians in the evaluation of ALNM.
 
