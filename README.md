@@ -12,7 +12,9 @@
  ### Environment
  Create environment and install dependencies.
 
-    conda env create -f requirements.yaml
+    conda create -n DAMF python=3.9 -y
+    conda activate DAMF
+    pip install -r requirements.txt --use-deprecated=legacy-resolver
 ## Dataset
 Due to ethical restrictions, patient images are for internal research use only, and we regret that we cannot disclose the entire dataset. To verify the authenticity of our research, we have provided sample patient files for testing and debugging. These samples can be used for model testing and to demonstrate our CAD demo software.
 
